@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "causality"
+version = "0.1.0"
+description = ""
+authors = ["danlsn <danlsn@github.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+dataclass-wizard = "^0.22.1"
+purl = "^1.6"
+pydantic = "^1.9.1"
+spotipy = "^2.20.0"
+pyperclip = "^1.8.2"
+inflection = "^0.5.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
