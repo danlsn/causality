@@ -1,0 +1,5 @@
+--Select Messages Sent by Me and Group By Type
+select count(*) count, message.service service
+from message
+group by service
+order by count desc;

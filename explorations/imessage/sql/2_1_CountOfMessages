@@ -1,0 +1,14 @@
+---All Messages
+SELECT count(*) count
+FROM message;
+
+---Sent By Me
+select count(*) count
+from main.message
+where message.is_from_me = 1;
+
+---Received By Me
+select count(*) count
+from main.message
+where message.is_from_me = 0;
+
