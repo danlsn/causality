@@ -132,3 +132,5 @@ dmypy.json
 data/
 /services/spotify/config.py
 /explorations/things3/db/*
+/causality-dbt/poetry.lock
+/.idea/.gitignore

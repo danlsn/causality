@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "causality-dbt"
+version = "0.1.0"
+description = ""
+authors = ["Daniel Lawson <daniel.lawson@rmit.edu.au>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+dbt-trino = "^1.7.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
